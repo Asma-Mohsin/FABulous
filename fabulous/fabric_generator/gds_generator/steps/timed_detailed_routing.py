@@ -89,10 +89,11 @@ class FABulousDetailedRoutingTimed(OpenROAD.DetailedRouting):
                 with contextlib.suppress(ProcessLookupError, PermissionError):
                     os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
 
-            timer = threading.Timer(timeout_s, _kill)
-            timer.daemon = True
-            timer.start()
-            timers.append(timer)
+            if timeout_s > 0:
+                timer = threading.Timer(timeout_s, _kill)
+                timer.daemon = True
+                timer.start()
+                timers.append(timer)
             return proc
 
         kwargs["_popen_callable"] = _spawn

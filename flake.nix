@@ -3,7 +3,7 @@
     nix-eda and nixpkgs follow librelane's pins for binary cache compatibility.";
 
   inputs = {
-    librelane.url = "github:librelane/librelane";
+    librelane.url = "github:librelane/librelane/dev";
 
     # Follow librelane's nix-eda and nixpkgs for binary cache hits
     nix-eda.follows = "librelane/nix-eda";
@@ -163,6 +163,7 @@
             pkgs.fish
             pkgs.zsh
             pkgs.gtkwave
+            pkgs.magic-vlsi
             customPkgs.yosys
             customPkgs.nextpnr
             customPkgs.fabulator

@@ -1,0 +1,152 @@
+X0Y0:
+  EAST:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - UserCLKo
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - FrameData_O\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  NORTH:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - FrameStrobe_O\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - UIO_TOP_UIN0
+    - UIO_TOP_UIN1
+    - UIO_TOP_UIN2
+    - UIO_TOP_UIN3
+    - UIO_TOP_UIN4
+    - UIO_TOP_UIN5
+    - UIO_TOP_UIN6
+    - UIO_TOP_UIN7
+    - UIO_TOP_UIN8
+    - UIO_TOP_UIN9
+    - UIO_TOP_UIN10
+    - UIO_TOP_UIN11
+    - UIO_TOP_UIN12
+    - UIO_TOP_UIN13
+    - UIO_TOP_UIN14
+    - UIO_TOP_UIN15
+    - UIO_TOP_UIN16
+    - UIO_TOP_UIN17
+    - UIO_TOP_UIN18
+    - UIO_TOP_UIN19
+    - UIO_TOP_UOUT0
+    - UIO_TOP_UOUT1
+    - UIO_TOP_UOUT2
+    - UIO_TOP_UOUT3
+    - UIO_TOP_UOUT4
+    - UIO_TOP_UOUT5
+    - UIO_TOP_UOUT6
+    - UIO_TOP_UOUT7
+    - UIO_TOP_UOUT8
+    - UIO_TOP_UOUT9
+    - UIO_TOP_UOUT10
+    - UIO_TOP_UOUT11
+    - UIO_TOP_UOUT12
+    - UIO_TOP_UOUT13
+    - UIO_TOP_UOUT14
+    - UIO_TOP_UOUT15
+    - UIO_TOP_UOUT16
+    - UIO_TOP_UOUT17
+    - UIO_TOP_UOUT18
+    - UIO_TOP_UOUT19
+    reverse_result: false
+    sort_mode: bus_major
+  SOUTH:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - N1END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - N2MID\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - N2END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - N4END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - NN4END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - S1BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - S2BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - S2BEGb\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - S4BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - SS4BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Ci
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - FrameStrobe\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  WEST:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - UserCLK
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - FrameData\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major

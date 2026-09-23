@@ -1,0 +1,1198 @@
+* NGSPICE file created from S_term_single.ext - technology: ihp-sg13cmos5l
+
+* Black-box entry subcircuit for sg13cmos5l_antennanp abstract view
+.subckt sg13cmos5l_antennanp A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13cmos5l_fill_2 abstract view
+.subckt sg13cmos5l_fill_2 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13cmos5l_decap_4 abstract view
+.subckt sg13cmos5l_decap_4 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13cmos5l_fill_1 abstract view
+.subckt sg13cmos5l_fill_1 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13cmos5l_decap_8 abstract view
+.subckt sg13cmos5l_decap_8 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13cmos5l_buf_1 abstract view
+.subckt sg13cmos5l_buf_1 X A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13cmos5l_buf_8 abstract view
+.subckt sg13cmos5l_buf_8 X A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13cmos5l_tielo abstract view
+.subckt sg13cmos5l_tielo L_LO VDD VSS
+.ends
+
+.subckt S_term_single Co FrameData[0] FrameData[10] FrameData[11] FrameData[12] FrameData[13]
++ FrameData[14] FrameData[15] FrameData[16] FrameData[17] FrameData[18] FrameData[19]
++ FrameData[1] FrameData[20] FrameData[21] FrameData[22] FrameData[23] FrameData[24]
++ FrameData[25] FrameData[26] FrameData[27] FrameData[28] FrameData[29] FrameData[2]
++ FrameData[30] FrameData[31] FrameData[3] FrameData[4] FrameData[5] FrameData[6]
++ FrameData[7] FrameData[8] FrameData[9] FrameData_O[0] FrameData_O[10] FrameData_O[11]
++ FrameData_O[12] FrameData_O[13] FrameData_O[14] FrameData_O[15] FrameData_O[16]
++ FrameData_O[17] FrameData_O[18] FrameData_O[19] FrameData_O[1] FrameData_O[20] FrameData_O[21]
++ FrameData_O[22] FrameData_O[23] FrameData_O[24] FrameData_O[25] FrameData_O[26]
++ FrameData_O[27] FrameData_O[28] FrameData_O[29] FrameData_O[2] FrameData_O[30] FrameData_O[31]
++ FrameData_O[3] FrameData_O[4] FrameData_O[5] FrameData_O[6] FrameData_O[7] FrameData_O[8]
++ FrameData_O[9] FrameStrobe[0] FrameStrobe[10] FrameStrobe[11] FrameStrobe[12] FrameStrobe[13]
++ FrameStrobe[14] FrameStrobe[15] FrameStrobe[16] FrameStrobe[17] FrameStrobe[18]
++ FrameStrobe[19] FrameStrobe[1] FrameStrobe[2] FrameStrobe[3] FrameStrobe[4] FrameStrobe[5]
++ FrameStrobe[6] FrameStrobe[7] FrameStrobe[8] FrameStrobe[9] FrameStrobe_O[0] FrameStrobe_O[10]
++ FrameStrobe_O[11] FrameStrobe_O[12] FrameStrobe_O[13] FrameStrobe_O[14] FrameStrobe_O[15]
++ FrameStrobe_O[16] FrameStrobe_O[17] FrameStrobe_O[18] FrameStrobe_O[19] FrameStrobe_O[1]
++ FrameStrobe_O[2] FrameStrobe_O[3] FrameStrobe_O[4] FrameStrobe_O[5] FrameStrobe_O[6]
++ FrameStrobe_O[7] FrameStrobe_O[8] FrameStrobe_O[9] N1BEG[0] N1BEG[1] N1BEG[2] N1BEG[3]
++ N2BEG[0] N2BEG[1] N2BEG[2] N2BEG[3] N2BEG[4] N2BEG[5] N2BEG[6] N2BEG[7] N2BEGb[0]
++ N2BEGb[1] N2BEGb[2] N2BEGb[3] N2BEGb[4] N2BEGb[5] N2BEGb[6] N2BEGb[7] N4BEG[0] N4BEG[10]
++ N4BEG[11] N4BEG[12] N4BEG[13] N4BEG[14] N4BEG[15] N4BEG[1] N4BEG[2] N4BEG[3] N4BEG[4]
++ N4BEG[5] N4BEG[6] N4BEG[7] N4BEG[8] N4BEG[9] NN4BEG[0] NN4BEG[10] NN4BEG[11] NN4BEG[12]
++ NN4BEG[13] NN4BEG[14] NN4BEG[15] NN4BEG[1] NN4BEG[2] NN4BEG[3] NN4BEG[4] NN4BEG[5]
++ NN4BEG[6] NN4BEG[7] NN4BEG[8] NN4BEG[9] S1END[0] S1END[1] S1END[2] S1END[3] S2END[0]
++ S2END[1] S2END[2] S2END[3] S2END[4] S2END[5] S2END[6] S2END[7] S2MID[0] S2MID[1]
++ S2MID[2] S2MID[3] S2MID[4] S2MID[5] S2MID[6] S2MID[7] S4END[0] S4END[10] S4END[11]
++ S4END[12] S4END[13] S4END[14] S4END[15] S4END[1] S4END[2] S4END[3] S4END[4] S4END[5]
++ S4END[6] S4END[7] S4END[8] S4END[9] SS4END[0] SS4END[10] SS4END[11] SS4END[12] SS4END[13]
++ SS4END[14] SS4END[15] SS4END[1] SS4END[2] SS4END[3] SS4END[4] SS4END[5] SS4END[6]
++ SS4END[7] SS4END[8] SS4END[9] UserCLK UserCLKo VGND VPWR
+XANTENNA__043__X N2BEG[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_317 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_7 VPWR VGND sg13cmos5l_decap_4
+XFILLER_3_67 VPWR VGND sg13cmos5l_fill_1
+XFILLER_3_78 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_343 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_387 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_126 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__038__X N2BEGb[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_103 VPWR VGND sg13cmos5l_decap_4
+XFILLER_10_114 VPWR VGND sg13cmos5l_fill_2
+XFILLER_10_125 VPWR VGND sg13cmos5l_fill_2
+XFILLER_10_158 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_335 VPWR VGND sg13cmos5l_decap_4
+XFILLER_2_357 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_4 VPWR VGND sg13cmos5l_fill_1
+XFILLER_6_129 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_140 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__034__A S2END[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_434 VPWR VGND sg13cmos5l_decap_4
+X_062_ FrameStrobe_O[13] FrameStrobe[13] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_405 VPWR VGND sg13cmos5l_fill_1
+XFILLER_0_46 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_121 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_198 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_88 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_55 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_11 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__029__A S4END[3] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__051__X FrameStrobe_O[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_231 VPWR VGND sg13cmos5l_decap_8
+X_045_ N2BEG[4] S2MID[3] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_290 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__046__X N2BEG[5] VPWR VGND sg13cmos5l_antennanp
+X_028_ N4BEG[11] S4END[4] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_45 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__042__A S2MID[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_9_319 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_263 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__037__A S2END[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_0 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_13 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_377 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_105 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__054__X FrameStrobe_O[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_137 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_303 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_108 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_380 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_185 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__049__X FrameStrobe_O[0] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__050__A FrameStrobe[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_413 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_25 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_100 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_177 VPWR VGND sg13cmos5l_decap_8
+X_061_ FrameStrobe_O[12] FrameStrobe[12] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__045__A S2MID[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_210 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_287 VPWR VGND sg13cmos5l_decap_8
+X_044_ N2BEG[3] S2MID[4] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_214 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__062__X FrameStrobe_O[13] VPWR VGND sg13cmos5l_antennanp
+X_027_ N4BEG[10] S4END[5] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__057__X FrameStrobe_O[8] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_209 VPWR VGND sg13cmos5l_fill_2
+XFILLER_0_242 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_308 VPWR VGND sg13cmos5l_fill_2
+XFILLER_10_319 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_397 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_364 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_353 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_331 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__053__A FrameStrobe[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_334 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_356 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_36 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_58 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__048__A S2MID[0] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__070__X N1BEG[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_116 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_370 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_153 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_164 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_90 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__065__X FrameStrobe_O[16] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_156 VPWR VGND sg13cmos5l_decap_8
+X_060_ FrameStrobe_O[11] FrameStrobe[11] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_418 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_46 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__061__A FrameStrobe[12] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_266 VPWR VGND sg13cmos5l_decap_8
+X_043_ N2BEG[2] S2MID[5] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_259 VPWR VGND sg13cmos5l_fill_1
+XFILLER_7_237 VPWR VGND sg13cmos5l_fill_1
+XFILLER_7_226 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_410 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__056__A FrameStrobe[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_435 VPWR VGND sg13cmos5l_fill_2
+XFILLER_4_207 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_218 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_229 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_284 VPWR VGND sg13cmos5l_decap_8
+X_026_ N4BEG[9] S4END[6] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_69 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__073__X UserCLKo VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_221 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_298 VPWR VGND sg13cmos5l_decap_8
+X_009_ NN4BEG[8] SS4END[7] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_387 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__068__X FrameStrobe_O[19] VPWR VGND sg13cmos5l_antennanp
+XFILLER_7_90 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_302 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_313 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_173 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__064__A FrameStrobe[15] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_110 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__059__A FrameStrobe[10] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__081__X FrameData_O[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_135 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_4 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_69 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_25 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__076__X FrameData_O[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_245 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_433 VPWR VGND sg13cmos5l_decap_4
+X_042_ N2BEG[1] S2MID[6] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__072__A S1END[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_70 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_81 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_92 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_403 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_414 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_263 VPWR VGND sg13cmos5l_decap_8
+X_025_ N4BEG[8] S4END[7] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_15 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__067__A FrameStrobe[18] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_200 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_277 VPWR VGND sg13cmos5l_decap_8
+X_008_ NN4BEG[7] SS4END[8] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_377 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_311 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__084__X FrameData_O[10] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_347 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_358 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_119 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_107 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__079__X FrameData_O[5] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__080__A FrameData[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_317 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_328 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_339 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_122 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_133 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_144 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_372 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_394 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_199 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__075__A FrameData[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_427 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_114 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_70 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_409 VPWR VGND sg13cmos5l_fill_2
+XFILLER_0_39 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_420 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__092__X FrameData_O[18] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_224 VPWR VGND sg13cmos5l_decap_8
+X_041_ N2BEG[0] S2MID[7] VPWR VGND sg13cmos5l_buf_1
+Xclkload0 clkload0/X clkload0/A VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_283 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__087__X FrameData_O[13] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_437 VPWR VGND sg13cmos5l_fill_1
+XFILLER_3_242 VPWR VGND sg13cmos5l_decap_8
+X_024_ N4BEG[7] S4END[8] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__083__A FrameData[9] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_256 VPWR VGND sg13cmos5l_decap_8
+X_007_ NN4BEG[6] SS4END[9] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_70 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__078__A FrameData[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_8_197 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_164 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_142 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_131 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_120 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__095__X FrameData_O[21] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_351 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_178 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__091__A FrameData[17] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_406 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_18 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_38 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_181 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_281 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__086__A FrameData[12] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_203 VPWR VGND sg13cmos5l_decap_8
+X_040_ N2BEGb[7] S2END[0] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_207 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_262 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_221 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_298 VPWR VGND sg13cmos5l_decap_8
+X_023_ N4BEG[6] S4END[9] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__098__X FrameData_O[24] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_235 VPWR VGND sg13cmos5l_decap_8
+X_006_ NN4BEG[5] SS4END[10] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_379 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_346 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_324 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__094__A FrameData[20] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_29 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_349 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_154 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__089__A FrameData[15] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_363 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_157 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_83 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_149 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_433 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_160 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_259 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_4 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_403 VPWR VGND sg13cmos5l_decap_8
+X_099_ FrameData_O[25] FrameData[25] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_241 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_428 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__097__A FrameData[23] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_200 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_277 VPWR VGND sg13cmos5l_decap_8
+X_022_ N4BEG[5] S4END[10] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_29 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_214 VPWR VGND sg13cmos5l_decap_8
+X_005_ NN4BEG[4] SS4END[11] VPWR VGND sg13cmos5l_buf_1
+XFILLER_5_306 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_339 VPWR VGND sg13cmos5l_decap_4
+XFILLER_7_83 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_394 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_111 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_342 VPWR VGND sg13cmos5l_decap_4
+XFILLER_2_128 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_18 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_261 VPWR VGND sg13cmos5l_fill_2
+XFILLER_11_238 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_283 VPWR VGND sg13cmos5l_fill_1
+XFILLER_10_260 VPWR VGND sg13cmos5l_fill_2
+XFILLER_10_293 VPWR VGND sg13cmos5l_fill_1
+XFILLER_3_437 VPWR VGND sg13cmos5l_fill_1
+X_098_ FrameData_O[24] FrameData[24] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_297 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_220 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_30 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_85 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_256 VPWR VGND sg13cmos5l_decap_8
+X_021_ N4BEG[4] S4END[11] VPWR VGND sg13cmos5l_buf_1
+XFILLER_11_7 VPWR VGND sg13cmos5l_decap_8
+X_004_ NN4BEG[3] SS4END[12] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_304 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_381 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_370 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_373 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__003__X NN4BEG[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_115 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_181 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_192 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_63 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_432 VPWR VGND sg13cmos5l_decap_4
+XFILLER_2_107 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__000__L_LO Co VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_195 VPWR VGND sg13cmos5l_fill_2
+XFILLER_6_413 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_217 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_240 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_210 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__101__X FrameData_O[27] VPWR VGND sg13cmos5l_antennanp
+X_097_ FrameData_O[23] FrameData[23] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_276 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__011__X NN4BEG[10] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_62 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_235 VPWR VGND sg13cmos5l_decap_8
+X_020_ N4BEG[3] S4END[12] VPWR VGND sg13cmos5l_buf_1
+XFILLER_2_290 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__006__X NN4BEG[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_249 VPWR VGND sg13cmos5l_decap_8
+X_003_ NN4BEG[2] SS4END[13] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__002__A SS4END[14] VPWR VGND sg13cmos5l_antennanp
+XFILLER_7_74 VPWR VGND sg13cmos5l_decap_4
+XFILLER_7_63 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_393 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_352 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_385 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_179 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_168 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_135 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_127 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_149 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__104__X FrameData_O[30] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_300 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_42 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_411 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__014__X NN4BEG[13] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_97 VPWR VGND sg13cmos5l_fill_2
+XFILLER_1_141 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_174 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_0 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__010__A SS4END[6] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__100__A FrameData[26] VPWR VGND sg13cmos5l_antennanp
+XFILLER_9_274 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_263 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__009__X NN4BEG[8] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_417 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_65 VPWR VGND sg13cmos5l_fill_1
+X_096_ FrameData_O[22] FrameData[22] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_255 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__005__A SS4END[11] VPWR VGND sg13cmos5l_antennanp
+Xclkbuf_1_1__f_UserCLK _073_/A clkbuf_0_UserCLK/X VPWR VGND sg13cmos5l_buf_8
+XFILLER_10_74 VPWR VGND sg13cmos5l_fill_1
+XFILLER_3_214 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_228 VPWR VGND sg13cmos5l_decap_8
+X_079_ FrameData_O[5] FrameData[5] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__022__X N4BEG[5] VPWR VGND sg13cmos5l_antennanp
+X_002_ NN4BEG[1] SS4END[14] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_339 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_97 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_42 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__017__X N4BEG[0] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__103__A FrameData[29] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_331 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_158 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_125 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__013__A SS4END[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_312 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_323 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_356 VPWR VGND sg13cmos5l_decap_4
+XFILLER_5_106 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__008__A SS4END[8] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_161 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_172 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__030__X N4BEG[13] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_120 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_437 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_153 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_197 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__025__X N4BEG[8] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_274 VPWR VGND sg13cmos5l_fill_2
+XFILLER_1_77 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_99 VPWR VGND sg13cmos5l_decap_8
+X_095_ FrameData_O[21] FrameData[21] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_234 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__021__A S4END[11] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__016__A SS4END[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_292 VPWR VGND sg13cmos5l_fill_1
+X_078_ FrameData_O[4] FrameData[4] VPWR VGND sg13cmos5l_buf_1
+XFILLER_0_207 VPWR VGND sg13cmos5l_decap_8
+X_001_ NN4BEG[0] SS4END[15] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_329 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_318 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_21 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__033__X N2BEGb[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_310 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_104 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__028__X N4BEG[11] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_335 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_129 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_11 VPWR VGND sg13cmos5l_fill_2
+XFILLER_4_140 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_33 VPWR VGND sg13cmos5l_decap_4
+XFILLER_4_77 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__024__A S4END[8] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_412 VPWR VGND sg13cmos5l_fill_2
+XFILLER_9_298 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_254 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__019__A S4END[13] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__041__X N2BEG[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_253 VPWR VGND sg13cmos5l_fill_2
+X_094_ FrameData_O[20] FrameData[20] VPWR VGND sg13cmos5l_buf_1
+XFILLER_1_34 VPWR VGND sg13cmos5l_fill_2
+XFILLER_1_45 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__036__X N2BEGb[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_21 VPWR VGND sg13cmos5l_fill_1
+XFILLER_10_32 VPWR VGND sg13cmos5l_decap_4
+XFILLER_10_43 VPWR VGND sg13cmos5l_decap_4
+XFILLER_10_54 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_249 VPWR VGND sg13cmos5l_decap_8
+X_077_ FrameData_O[3] FrameData[3] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__032__A S4END[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_392 VPWR VGND sg13cmos5l_decap_8
+X_000_ Co VPWR VGND sg13cmos5l_tielo
+XFILLER_7_363 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_11 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__027__A S4END[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_366 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_149 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_193 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__044__X N2BEG[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_130 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_196 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_56 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_436 VPWR VGND sg13cmos5l_fill_2
+XFILLER_9_425 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__039__X N2BEGb[6] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__040__A S2END[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_424 VPWR VGND sg13cmos5l_fill_2
+XFILLER_1_188 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_233 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_222 VPWR VGND sg13cmos5l_fill_1
+XFILLER_6_406 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__035__A S2END[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_9_288 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_210 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_0 VPWR VGND sg13cmos5l_decap_4
+X_093_ FrameData_O[19] FrameData[19] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_269 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_214 VPWR VGND sg13cmos5l_fill_2
+XFILLER_6_203 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_291 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__052__X FrameStrobe_O[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_99 VPWR VGND sg13cmos5l_fill_1
+XFILLER_3_228 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_250 VPWR VGND sg13cmos5l_fill_2
+XFILLER_2_272 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_283 VPWR VGND sg13cmos5l_decap_8
+X_076_ FrameData_O[2] FrameData[2] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__047__X N2BEG[6] VPWR VGND sg13cmos5l_antennanp
+Xclkbuf_1_0__f_UserCLK clkload0/A clkbuf_0_UserCLK/X VPWR VGND sg13cmos5l_buf_8
+XFILLER_11_371 VPWR VGND sg13cmos5l_decap_8
+X_059_ FrameStrobe_O[10] FrameStrobe[10] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_78 VPWR VGND sg13cmos5l_fill_1
+XFILLER_7_56 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_386 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_353 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_320 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__043__A S2MID[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_345 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_378 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_389 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_172 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__038__A S2END[2] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__060__X FrameStrobe_O[11] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_304 VPWR VGND sg13cmos5l_decap_4
+XFILLER_4_13 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_404 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__055__X FrameStrobe_O[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_414 VPWR VGND sg13cmos5l_fill_1
+XFILLER_10_436 VPWR VGND sg13cmos5l_fill_2
+XFILLER_1_134 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_167 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_267 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__051__A FrameStrobe[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_255 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_421 VPWR VGND sg13cmos5l_decap_8
+X_092_ FrameData_O[18] FrameData[18] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_248 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__046__A S2MID[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_207 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_262 VPWR VGND sg13cmos5l_fill_2
+X_075_ FrameData_O[1] FrameData[1] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__063__X FrameStrobe_O[14] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_350 VPWR VGND sg13cmos5l_decap_4
+X_058_ FrameStrobe_O[9] FrameStrobe[9] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_398 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_35 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__058__X FrameStrobe_O[9] VPWR VGND sg13cmos5l_antennanp
+XFILLER_8_118 VPWR VGND sg13cmos5l_fill_2
+XFILLER_4_324 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_129 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__054__A FrameStrobe[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_7_162 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_327 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_349 VPWR VGND sg13cmos5l_fill_2
+XFILLER_4_154 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_176 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_25 VPWR VGND sg13cmos5l_decap_4
+XFILLER_0_382 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__049__A FrameStrobe[0] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__071__X N1BEG[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_113 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_430 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__066__X FrameStrobe_O[17] VPWR VGND sg13cmos5l_antennanp
+XFILLER_8_290 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_400 VPWR VGND sg13cmos5l_decap_8
+X_091_ FrameData_O[17] FrameData[17] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_227 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__062__A FrameStrobe[13] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_79 VPWR VGND sg13cmos5l_decap_4
+X_074_ FrameData_O[0] FrameData[0] VPWR VGND sg13cmos5l_buf_1
+XFILLER_2_296 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__057__A FrameStrobe[8] VPWR VGND sg13cmos5l_antennanp
+X_057_ FrameStrobe_O[8] FrameStrobe[8] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_377 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__074__X FrameData_O[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_303 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_380 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_141 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__069__X N1BEG[0] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__070__A S1END[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_361 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_188 VPWR VGND sg13cmos5l_decap_4
+XFILLER_4_37 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__065__A FrameStrobe[16] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_405 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_247 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__082__X FrameData_O[8] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_202 VPWR VGND sg13cmos5l_decap_4
+XFILLER_10_224 VPWR VGND sg13cmos5l_fill_2
+XFILLER_10_268 VPWR VGND sg13cmos5l_fill_2
+X_090_ FrameData_O[16] FrameData[16] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__077__X FrameData_O[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_36 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_0 VPWR VGND sg13cmos5l_decap_8
+X_073_ UserCLKo _073_/A VPWR VGND sg13cmos5l_buf_1
+XANTENNA__073__A clkload0/A VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_385 VPWR VGND sg13cmos5l_decap_8
+X_056_ FrameStrobe_O[7] FrameStrobe[7] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_334 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__068__A FrameStrobe[19] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__090__X FrameData_O[16] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_359 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_182 VPWR VGND sg13cmos5l_decap_8
+X_039_ N2BEGb[6] S2END[1] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_186 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_120 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__085__X FrameData_O[11] VPWR VGND sg13cmos5l_antennanp
+XFILLER_8_80 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_340 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_123 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_49 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_418 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__081__A FrameData[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_148 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_410 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_226 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_215 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_204 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_7 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_92 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__076__A FrameData[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_435 VPWR VGND sg13cmos5l_fill_2
+XFILLER_6_4 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_39 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_273 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_284 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_26 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__093__X FrameData_O[19] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_243 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_276 VPWR VGND sg13cmos5l_decap_8
+X_072_ N1BEG[3] S1END[0] VPWR VGND sg13cmos5l_buf_1
+XFILLER_2_93 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__088__X FrameData_O[14] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_364 VPWR VGND sg13cmos5l_decap_8
+X_055_ FrameStrobe_O[6] FrameStrobe[6] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_49 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_346 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_91 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__084__A FrameData[10] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_338 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_161 VPWR VGND sg13cmos5l_decap_8
+X_038_ N2BEGb[5] S2END[2] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__079__A FrameData[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_319 VPWR VGND sg13cmos5l_decap_4
+XFILLER_0_396 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_102 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_168 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_430 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__096__X FrameData_O[22] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_429 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_127 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_193 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__092__A FrameData[18] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_414 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_252 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__087__A FrameData[13] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_222 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_255 VPWR VGND sg13cmos5l_decap_8
+X_071_ N1BEG[2] S1END[1] VPWR VGND sg13cmos5l_buf_1
+XFILLER_2_72 VPWR VGND sg13cmos5l_decap_4
+XFILLER_11_343 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_70 VPWR VGND sg13cmos5l_decap_8
+X_054_ FrameStrobe_O[5] FrameStrobe[5] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_314 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_303 VPWR VGND sg13cmos5l_decap_4
+XFILLER_7_28 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_317 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__099__X FrameData_O[25] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_140 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_361 VPWR VGND sg13cmos5l_decap_8
+X_037_ N2BEGb[4] S2END[3] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_155 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_394 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__095__A FrameData[21] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_375 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_147 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_18 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_29 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_106 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_172 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_401 VPWR VGND sg13cmos5l_decap_4
+XFILLER_5_50 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_283 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_437 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_231 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_212 VPWR VGND sg13cmos5l_decap_4
+X_070_ N1BEG[1] S1END[2] VPWR VGND sg13cmos5l_buf_1
+XFILLER_2_51 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__098__A FrameData[24] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_322 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_399 VPWR VGND sg13cmos5l_decap_8
+X_053_ FrameStrobe_O[4] FrameStrobe[4] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_370 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_196 VPWR VGND sg13cmos5l_decap_8
+X_105_ FrameData_O[31] FrameData[31] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_134 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_340 VPWR VGND sg13cmos5l_decap_8
+X_036_ N2BEGb[3] S2END[4] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_94 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_61 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_50 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_354 VPWR VGND sg13cmos5l_decap_8
+X_019_ N4BEG[2] S4END[13] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_421 VPWR VGND sg13cmos5l_decap_4
+XFILLER_0_151 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_424 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_40 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_262 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_251 VPWR VGND sg13cmos5l_fill_1
+XFILLER_10_206 VPWR VGND sg13cmos5l_fill_1
+XFILLER_10_217 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_210 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_298 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__001__X NN4BEG[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_268 VPWR VGND sg13cmos5l_decap_4
+XFILLER_2_41 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_390 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_301 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_378 VPWR VGND sg13cmos5l_decap_8
+X_052_ FrameStrobe_O[3] FrameStrobe[3] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_327 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_316 VPWR VGND sg13cmos5l_fill_1
+XFILLER_11_175 VPWR VGND sg13cmos5l_decap_8
+X_035_ N2BEGb[2] S2END[5] VPWR VGND sg13cmos5l_buf_1
+X_104_ FrameData_O[30] FrameData[30] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_179 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_113 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_73 VPWR VGND sg13cmos5l_decap_4
+XFILLER_0_333 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_116 VPWR VGND sg13cmos5l_decap_8
+X_018_ N4BEG[1] S4END[14] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_411 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__004__X NN4BEG[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_160 VPWR VGND sg13cmos5l_fill_1
+XFILLER_3_193 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_130 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_0 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_85 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_428 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_266 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_236 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__102__X FrameData_O[28] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_20 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_86 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__012__X NN4BEG[11] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_357 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_84 VPWR VGND sg13cmos5l_decap_8
+X_051_ FrameStrobe_O[2] FrameStrobe[2] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_339 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__007__X NN4BEG[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_154 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_375 VPWR VGND sg13cmos5l_fill_2
+X_034_ N2BEGb[1] S2END[6] VPWR VGND sg13cmos5l_buf_1
+X_103_ FrameData_O[29] FrameData[29] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__003__A SS4END[13] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_312 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_389 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_172 VPWR VGND sg13cmos5l_decap_8
+X_017_ N4BEG[0] S4END[15] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__020__X N4BEG[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_426 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_437 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__105__X FrameData_O[31] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_186 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_64 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_297 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_242 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__015__X NN4BEG[14] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_407 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__101__A FrameData[27] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_245 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__011__A SS4END[5] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_65 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__006__A SS4END[10] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_336 VPWR VGND sg13cmos5l_decap_8
+X_050_ FrameStrobe_O[1] FrameStrobe[1] VPWR VGND sg13cmos5l_buf_1
+XFILLER_10_391 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_63 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_395 VPWR VGND sg13cmos5l_decap_4
+XFILLER_6_340 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__023__X N4BEG[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_0 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_133 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_354 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_387 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_398 VPWR VGND sg13cmos5l_fill_2
+X_033_ N2BEGb[0] S2END[7] VPWR VGND sg13cmos5l_buf_1
+X_102_ FrameData_O[28] FrameData[28] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_148 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_104 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__018__X N4BEG[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_368 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__104__A FrameData[30] VPWR VGND sg13cmos5l_antennanp
+X_016_ NN4BEG[15] SS4END[0] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_402 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__014__A SS4END[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_165 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_405 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_276 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_221 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__009__A SS4END[7] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__031__X N4BEG[14] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_224 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_279 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__026__X N4BEG[9] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_205 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_216 VPWR VGND sg13cmos5l_fill_2
+XFILLER_4_7 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_282 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__022__A S4END[10] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_315 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_370 VPWR VGND sg13cmos5l_decap_4
+XFILLER_11_42 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__017__A S4END[15] VPWR VGND sg13cmos5l_antennanp
+XFILLER_6_385 VPWR VGND sg13cmos5l_fill_2
+XFILLER_6_363 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_112 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_189 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_333 VPWR VGND sg13cmos5l_decap_8
+X_032_ N4BEG[15] S4END[0] VPWR VGND sg13cmos5l_buf_1
+X_101_ FrameData_O[27] FrameData[27] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_127 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_87 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_65 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_43 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_182 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__034__X N2BEGb[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_347 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_152 VPWR VGND sg13cmos5l_fill_2
+X_015_ NN4BEG[14] SS4END[1] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_425 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__029__X N4BEG[12] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__030__A S4END[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_144 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_417 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_11 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_33 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_99 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_255 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__025__A S4END[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_203 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_420 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__042__X N2BEG[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_261 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_34 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_383 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_350 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__037__X N2BEGb[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_21 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_98 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_382 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__033__A S2END[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_168 VPWR VGND sg13cmos5l_decap_8
+X_031_ N4BEG[14] S4END[1] VPWR VGND sg13cmos5l_buf_1
+X_100_ FrameData_O[26] FrameData[26] VPWR VGND sg13cmos5l_buf_1
+XFILLER_3_312 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_11 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_161 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__028__A S4END[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_326 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_109 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__050__X FrameStrobe_O[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_186 VPWR VGND sg13cmos5l_decap_8
+X_014_ NN4BEG[13] SS4END[2] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_437 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_415 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__045__X N2BEG[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_123 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_78 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__041__A S2MID[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_259 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__036__A S2END[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_229 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_240 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_284 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_13 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_79 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_373 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__053__X FrameStrobe_O[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_77 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_354 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__048__X N2BEG[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_9_192 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_147 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_368 VPWR VGND sg13cmos5l_decap_8
+X_030_ N4BEG[13] S4END[2] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_34 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__044__A S2MID[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_6_184 VPWR VGND sg13cmos5l_fill_1
+XFILLER_0_305 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_154 VPWR VGND sg13cmos5l_fill_1
+X_013_ NN4BEG[12] SS4END[3] VPWR VGND sg13cmos5l_buf_1
+XFILLER_3_165 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__039__A S2END[1] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__061__X FrameStrobe_O[12] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_102 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_179 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_430 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_57 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_235 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__056__X FrameStrobe_O[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_422 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_433 VPWR VGND sg13cmos5l_decap_4
+XFILLER_5_238 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_282 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__052__A FrameStrobe[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_252 VPWR VGND sg13cmos5l_decap_4
+XFILLER_1_296 VPWR VGND sg13cmos5l_decap_4
+XFILLER_2_58 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_352 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_0 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__047__A S2MID[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_329 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_56 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_399 VPWR VGND sg13cmos5l_fill_1
+XFILLER_6_377 VPWR VGND sg13cmos5l_fill_2
+XFILLER_6_333 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_311 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_171 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__064__X FrameStrobe_O[15] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_126 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_347 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_108 VPWR VGND sg13cmos5l_fill_2
+X_089_ FrameData_O[15] FrameData[15] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_57 VPWR VGND sg13cmos5l_decap_4
+XFILLER_6_196 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__059__X FrameStrobe_O[10] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__060__A FrameStrobe[11] VPWR VGND sg13cmos5l_antennanp
+XFILLER_8_406 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_122 VPWR VGND sg13cmos5l_fill_2
+X_012_ NN4BEG[11] SS4END[4] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__055__A FrameStrobe[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_158 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_25 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_269 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_214 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__072__X N1BEG[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_217 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_261 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__067__X FrameStrobe_O[18] VPWR VGND sg13cmos5l_antennanp
+XFILLER_6_90 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_275 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__063__A FrameStrobe[14] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_308 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_35 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_397 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_374 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_150 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__058__A FrameStrobe[9] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__080__X FrameData_O[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_105 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_326 VPWR VGND sg13cmos5l_decap_8
+X_088_ FrameData_O[14] FrameData[14] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_25 VPWR VGND sg13cmos5l_decap_4
+XFILLER_6_175 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__075__X FrameData_O[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_145 VPWR VGND sg13cmos5l_decap_8
+X_011_ NN4BEG[10] SS4END[5] VPWR VGND sg13cmos5l_buf_1
+XFILLER_0_81 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__071__A S1END[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_137 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_410 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__066__A FrameStrobe[17] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__083__X FrameData_O[9] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_27 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_343 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__078__X FrameData_O[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_14 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_140 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__074__A FrameData[0] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_305 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_92 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_150 VPWR VGND sg13cmos5l_decap_4
+XFILLER_10_172 VPWR VGND sg13cmos5l_fill_2
+XFILLER_10_194 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_371 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_382 VPWR VGND sg13cmos5l_fill_2
+X_087_ FrameData_O[13] FrameData[13] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_154 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_143 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__069__A S1END[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_319 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__091__X FrameData_O[17] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_113 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_179 VPWR VGND sg13cmos5l_decap_8
+X_010_ NN4BEG[9] SS4END[6] VPWR VGND sg13cmos5l_buf_1
+XFILLER_0_60 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_430 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__086__X FrameData_O[12] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_116 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_249 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__082__A FrameData[8] VPWR VGND sg13cmos5l_antennanp
+XFILLER_7_293 VPWR VGND sg13cmos5l_decap_4
+XFILLER_7_271 VPWR VGND sg13cmos5l_fill_2
+XFILLER_4_241 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_252 VPWR VGND sg13cmos5l_decap_4
+XFILLER_4_296 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__077__A FrameData[3] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_211 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_222 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_233 VPWR VGND sg13cmos5l_fill_2
+XFILLER_9_366 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__094__X FrameData_O[20] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_398 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_0 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_358 VPWR VGND sg13cmos5l_fill_1
+XFILLER_6_347 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_71 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_185 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__089__X FrameData_O[15] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__090__A FrameData[16] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_7 VPWR VGND sg13cmos5l_fill_1
+XFILLER_6_122 VPWR VGND sg13cmos5l_decap_8
+X_086_ FrameData_O[12] FrameData[12] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_38 VPWR VGND sg13cmos5l_fill_1
+XFILLER_2_350 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__085__A FrameData[11] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_158 VPWR VGND sg13cmos5l_fill_2
+XFILLER_2_191 VPWR VGND sg13cmos5l_decap_8
+X_069_ N1BEG[0] S1END[3] VPWR VGND sg13cmos5l_buf_1
+XFILLER_4_412 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_228 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__097__X FrameData_O[23] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_415 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_437 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_275 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__093__A FrameData[19] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_245 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_256 VPWR VGND sg13cmos5l_fill_2
+XFILLER_9_4 VPWR VGND sg13cmos5l_fill_1
+XFILLER_1_289 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_312 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__088__A FrameData[14] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_49 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_326 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_315 VPWR VGND sg13cmos5l_fill_1
+XFILLER_6_304 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_119 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_50 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_370 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_381 VPWR VGND sg13cmos5l_fill_2
+XFILLER_9_164 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_101 VPWR VGND sg13cmos5l_decap_8
+X_085_ FrameData_O[11] FrameData[11] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_189 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_170 VPWR VGND sg13cmos5l_decap_8
+X_068_ FrameStrobe_O[19] FrameStrobe[19] VPWR VGND sg13cmos5l_buf_1
+XFILLER_0_95 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__096__A FrameData[22] VPWR VGND sg13cmos5l_antennanp
+XFILLER_5_18 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_29 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_207 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_280 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_284 VPWR VGND sg13cmos5l_decap_4
+XFILLER_7_273 VPWR VGND sg13cmos5l_fill_1
+XFILLER_6_94 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_83 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_202 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_268 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_28 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__099__A FrameData[25] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_319 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_142 VPWR VGND sg13cmos5l_decap_4
+X_084_ FrameData_O[10] FrameData[10] VPWR VGND sg13cmos5l_buf_1
+XFILLER_8_29 VPWR VGND sg13cmos5l_fill_2
+XFILLER_8_18 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_168 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_138 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_74 VPWR VGND sg13cmos5l_decap_8
+X_067_ FrameStrobe_O[18] FrameStrobe[18] VPWR VGND sg13cmos5l_buf_1
+XFILLER_9_83 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_50 VPWR VGND sg13cmos5l_fill_1
+XFILLER_4_403 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_252 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_211 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_62 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_40 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_336 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_291 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__002__X NN4BEG[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_63 VPWR VGND sg13cmos5l_decap_4
+XFILLER_5_394 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_199 VPWR VGND sg13cmos5l_fill_2
+XFILLER_9_133 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_85 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_165 VPWR VGND sg13cmos5l_fill_2
+XFILLER_2_364 VPWR VGND sg13cmos5l_fill_2
+XFILLER_5_0 VPWR VGND sg13cmos5l_decap_4
+X_083_ FrameData_O[9] FrameData[9] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_147 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_136 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_106 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_128 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__100__X FrameData_O[26] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_53 VPWR VGND sg13cmos5l_decap_8
+X_066_ FrameStrobe_O[17] FrameStrobe[17] VPWR VGND sg13cmos5l_buf_1
+XFILLER_9_62 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_423 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__010__X NN4BEG[9] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_109 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_437 VPWR VGND sg13cmos5l_fill_1
+X_049_ FrameStrobe_O[0] FrameStrobe[0] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_297 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_264 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__005__X NN4BEG[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_234 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_256 VPWR VGND sg13cmos5l_fill_2
+XFILLER_4_289 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__001__A SS4END[15] VPWR VGND sg13cmos5l_antennanp
+XFILLER_6_52 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_215 VPWR VGND sg13cmos5l_decap_8
+XFILLER_0_270 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_359 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_370 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_178 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_112 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__013__X NN4BEG[12] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__103__X FrameData_O[29] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_133 VPWR VGND sg13cmos5l_decap_4
+XFILLER_10_177 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_310 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_321 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_343 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_387 VPWR VGND sg13cmos5l_decap_4
+XFILLER_6_115 VPWR VGND sg13cmos5l_decap_8
+X_082_ FrameData_O[8] FrameData[8] VPWR VGND sg13cmos5l_buf_1
+XFILLER_5_192 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__008__X NN4BEG[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_118 VPWR VGND sg13cmos5l_decap_4
+XFILLER_0_32 VPWR VGND sg13cmos5l_decap_8
+XFILLER_11_420 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_184 VPWR VGND sg13cmos5l_decap_8
+X_065_ FrameStrobe_O[16] FrameStrobe[16] VPWR VGND sg13cmos5l_buf_1
+XFILLER_9_30 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__004__A SS4END[12] VPWR VGND sg13cmos5l_antennanp
+Xclkbuf_0_UserCLK clkbuf_0_UserCLK/X UserCLK VPWR VGND sg13cmos5l_buf_8
+XFILLER_11_294 VPWR VGND sg13cmos5l_decap_8
+XFILLER_4_416 VPWR VGND sg13cmos5l_decap_4
+XFILLER_7_221 VPWR VGND sg13cmos5l_fill_2
+X_048_ N2BEG[7] S2MID[0] VPWR VGND sg13cmos5l_buf_1
+XANTENNA__021__X N4BEG[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_268 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__016__X NN4BEG[15] VPWR VGND sg13cmos5l_antennanp
+XFILLER_1_238 VPWR VGND sg13cmos5l_fill_2
+XANTENNA__102__A FrameData[28] VPWR VGND sg13cmos5l_antennanp
+XFILLER_9_305 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__012__A SS4END[4] VPWR VGND sg13cmos5l_antennanp
+XFILLER_8_393 VPWR VGND sg13cmos5l_decap_4
+XFILLER_8_360 VPWR VGND sg13cmos5l_decap_4
+XFILLER_10_326 VPWR VGND sg13cmos5l_fill_1
+XFILLER_10_359 VPWR VGND sg13cmos5l_fill_1
+XFILLER_9_157 VPWR VGND sg13cmos5l_decap_8
+XFILLER_6_319 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__007__A SS4END[9] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_43 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_54 VPWR VGND sg13cmos5l_decap_4
+XFILLER_5_330 VPWR VGND sg13cmos5l_decap_4
+XFILLER_5_363 VPWR VGND sg13cmos5l_fill_1
+XFILLER_8_190 VPWR VGND sg13cmos5l_decap_8
+XFILLER_10_167 VPWR VGND sg13cmos5l_fill_1
+X_081_ FrameData_O[7] FrameData[7] VPWR VGND sg13cmos5l_buf_1
+XFILLER_2_366 VPWR VGND sg13cmos5l_fill_1
+XFILLER_5_171 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__024__X N4BEG[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_11 VPWR VGND sg13cmos5l_decap_8
+XFILLER_2_163 VPWR VGND sg13cmos5l_decap_8
+X_064_ FrameStrobe_O[15] FrameStrobe[15] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_414 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__020__A S4END[12] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_88 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_42 VPWR VGND sg13cmos5l_fill_1
+XANTENNA__019__X N4BEG[2] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__105__A FrameData[31] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_273 VPWR VGND sg13cmos5l_decap_8
+X_047_ N2BEG[6] S2MID[1] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_288 VPWR VGND sg13cmos5l_fill_2
+XFILLER_7_277 VPWR VGND sg13cmos5l_decap_8
+XFILLER_7_233 VPWR VGND sg13cmos5l_decap_4
+XFILLER_7_200 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__015__A SS4END[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_4_203 VPWR VGND sg13cmos5l_decap_4
+XFILLER_4_225 VPWR VGND sg13cmos5l_decap_4
+XFILLER_6_76 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__032__X N4BEG[15] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_291 VPWR VGND sg13cmos5l_decap_8
+XFILLER_8_383 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__027__X N4BEG[10] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_11 VPWR VGND sg13cmos5l_fill_2
+XFILLER_3_22 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_99 VPWR VGND sg13cmos5l_decap_8
+XFILLER_5_320 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__023__A S4END[9] VPWR VGND sg13cmos5l_antennanp
+XFILLER_10_146 VPWR VGND sg13cmos5l_fill_1
+X_080_ FrameData_O[6] FrameData[6] VPWR VGND sg13cmos5l_buf_1
+XFILLER_2_378 VPWR VGND sg13cmos5l_decap_4
+XANTENNA__018__A S4END[14] VPWR VGND sg13cmos5l_antennanp
+XANTENNA__040__X N2BEGb[7] VPWR VGND sg13cmos5l_antennanp
+XFILLER_2_142 VPWR VGND sg13cmos5l_decap_8
+XFILLER_3_0 VPWR VGND sg13cmos5l_decap_4
+X_063_ FrameStrobe_O[14] FrameStrobe[14] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_437 VPWR VGND sg13cmos5l_fill_1
+XFILLER_0_67 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_98 VPWR VGND sg13cmos5l_decap_8
+XFILLER_9_76 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__035__X N2BEGb[2] VPWR VGND sg13cmos5l_antennanp
+XFILLER_11_252 VPWR VGND sg13cmos5l_decap_8
+X_046_ N2BEG[5] S2MID[2] VPWR VGND sg13cmos5l_buf_1
+XFILLER_7_245 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__031__A S4END[1] VPWR VGND sg13cmos5l_antennanp
+XFILLER_0_410 VPWR VGND sg13cmos5l_fill_1
+XFILLER_0_421 VPWR VGND sg13cmos5l_decap_8
+XANTENNA__026__A S4END[6] VPWR VGND sg13cmos5l_antennanp
+XFILLER_3_270 VPWR VGND sg13cmos5l_decap_8
+X_029_ N4BEG[12] S4END[3] VPWR VGND sg13cmos5l_buf_1
+XFILLER_6_22 VPWR VGND sg13cmos5l_decap_8
+XFILLER_1_229 VPWR VGND sg13cmos5l_decap_4
+XFILLER_9_329 VPWR VGND sg13cmos5l_decap_4
+XFILLER_0_284 VPWR VGND sg13cmos5l_decap_8
+.ends
+

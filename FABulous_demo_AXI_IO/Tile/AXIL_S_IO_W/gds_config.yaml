@@ -1,0 +1,4 @@
+DIE_AREA: [0, 0, 147.36, 860.96]
+PL_TARGET_DENSITY_PCT: 50
+pdk::gf180mcuD:
+  DIE_AREA: [0, 0, 320, 320]

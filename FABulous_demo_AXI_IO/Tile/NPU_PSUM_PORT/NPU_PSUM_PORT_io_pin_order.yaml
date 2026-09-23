@@ -1,0 +1,278 @@
+X0Y0:
+  EAST: []
+  NORTH:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_FrameStrobe_O\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  SOUTH:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_N1END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_N2MID\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_N2END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_N4END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_NN4END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_S1BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_S2BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_S2BEGb\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_S4BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_SS4BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_Ci
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_FrameStrobe\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  WEST:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_UserCLK
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X0Y0_FrameData\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+X1Y0:
+  EAST:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_UserCLKo
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_FrameData_O\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  NORTH:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_FrameStrobe_O\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - NPU_RDATA0
+    - NPU_RDATA1
+    - NPU_RDATA2
+    - NPU_RDATA3
+    - NPU_RDATA4
+    - NPU_RDATA5
+    - NPU_RDATA6
+    - NPU_RDATA7
+    - NPU_RDATA8
+    - NPU_RDATA9
+    - NPU_RDATA10
+    - NPU_RDATA11
+    - NPU_RDATA12
+    - NPU_RDATA13
+    - NPU_RDATA14
+    - NPU_RDATA15
+    - NPU_RDATA16
+    - NPU_RDATA17
+    - NPU_RDATA18
+    - NPU_RDATA19
+    - NPU_RDATA20
+    - NPU_RDATA21
+    - NPU_RDATA22
+    - NPU_RDATA23
+    - NPU_RDATA24
+    - NPU_RDATA25
+    - NPU_RDATA26
+    - NPU_RDATA27
+    - NPU_RDATA28
+    - NPU_RDATA29
+    - NPU_RDATA30
+    - NPU_RDATA31
+    - NPU_ADDR0
+    - NPU_ADDR1
+    - NPU_ADDR2
+    - NPU_ADDR3
+    - NPU_ADDR4
+    - NPU_ADDR5
+    - NPU_ADDR6
+    - NPU_ADDR7
+    - NPU_WE0
+    - NPU_WE1
+    - NPU_WE2
+    - NPU_WE3
+    - NPU_WE4
+    - NPU_WE5
+    - NPU_WE6
+    - NPU_WE7
+    - NPU_WDATA0
+    - NPU_WDATA1
+    - NPU_WDATA2
+    - NPU_WDATA3
+    - NPU_WDATA4
+    - NPU_WDATA5
+    - NPU_WDATA6
+    - NPU_WDATA7
+    - NPU_WDATA8
+    - NPU_WDATA9
+    - NPU_WDATA10
+    - NPU_WDATA11
+    - NPU_WDATA12
+    - NPU_WDATA13
+    - NPU_WDATA14
+    - NPU_WDATA15
+    - NPU_WDATA16
+    - NPU_WDATA17
+    - NPU_WDATA18
+    - NPU_WDATA19
+    - NPU_WDATA20
+    - NPU_WDATA21
+    - NPU_WDATA22
+    - NPU_WDATA23
+    - NPU_WDATA24
+    - NPU_WDATA25
+    - NPU_WDATA26
+    - NPU_WDATA27
+    - NPU_WDATA28
+    - NPU_WDATA29
+    - NPU_WDATA30
+    - NPU_WDATA31
+    - NPU_READ_BANK_SEL0
+    - NPU_READ_BANK_SEL1
+    - NPU_READ_BANK_SEL2
+    reverse_result: false
+    sort_mode: bus_major
+  SOUTH:
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_N1END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_N2MID\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_N2END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_N4END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_NN4END\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_S1BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_S2BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_S2BEGb\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_S4BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_SS4BEG\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_Ci
+    reverse_result: false
+    sort_mode: bus_major
+  - max_distance: null
+    min_distance: null
+    pins:
+    - Tile_X1Y0_FrameStrobe\[\d+\]
+    reverse_result: false
+    sort_mode: bus_major
+  WEST: []
